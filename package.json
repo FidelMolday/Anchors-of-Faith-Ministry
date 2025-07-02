@@ -1,6 +1,6 @@
 {
   "name": "anchorsoffaith",
-  "homepage": "https://anchorsoffaith.com",
+  "homepage": "https://FidelMolday.github.io/Anchors-of-Faith-Ministry",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,7 +51,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -75,13 +77,14 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "concurrently": "^9.1.0",
     "crypto-browserify": "^3.12.1",
+    "gh-pages": "^6.3.0",
     "https-browserify": "^1.0.0",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "url": "^0.11.4",
     "util": "^0.12.5"
   },
-  "description": "KilonzoCorp",
+  "description": "Anchors of Faith",
   "main": "index.js",
   "keywords": [],
   "author": "",
