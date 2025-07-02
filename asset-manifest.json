@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Anchors-of-Faith-Ministry/static/css/main.6aaf438b.css",
+    "main.js": "/Anchors-of-Faith-Ministry/static/js/main.aaaf62f6.js",
+    "static/js/453.656ba456.chunk.js": "/Anchors-of-Faith-Ministry/static/js/453.656ba456.chunk.js",
+    "static/media/om.jpeg": "/Anchors-of-Faith-Ministry/static/media/om.a1568a2c613dc5f09b1d.jpeg",
+    "static/media/logo.png": "/Anchors-of-Faith-Ministry/static/media/logo.eb9b0f7b6c3a749ccf04.png",
+    "static/media/banner.png": "/Anchors-of-Faith-Ministry/static/media/banner.94d73ddba4737062b8b7.png",
+    "static/media/10.jpeg": "/Anchors-of-Faith-Ministry/static/media/10.0298f2474046b3a3aa99.jpeg",
+    "static/media/6.jpg": "/Anchors-of-Faith-Ministry/static/media/6.0320009e5749edec9919.jpg",
+    "static/media/om0.jpeg": "/Anchors-of-Faith-Ministry/static/media/om0.8a78508c1f923bfdb183.jpeg",
+    "static/media/subBanner.jpg": "/Anchors-of-Faith-Ministry/static/media/subBanner.119fe08284152304730b.jpg",
+    "static/media/revicons.eot": "/Anchors-of-Faith-Ministry/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Anchors-of-Faith-Ministry/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Anchors-of-Faith-Ministry/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/slick.svg": "/Anchors-of-Faith-Ministry/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Anchors-of-Faith-Ministry/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Anchors-of-Faith-Ministry/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Anchors-of-Faith-Ministry/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Anchors-of-Faith-Ministry/index.html",
+    "main.6aaf438b.css.map": "/Anchors-of-Faith-Ministry/static/css/main.6aaf438b.css.map",
+    "main.aaaf62f6.js.map": "/Anchors-of-Faith-Ministry/static/js/main.aaaf62f6.js.map",
+    "453.656ba456.chunk.js.map": "/Anchors-of-Faith-Ministry/static/js/453.656ba456.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aaf438b.css",
+    "static/js/main.aaaf62f6.js"
+  ]
+}
