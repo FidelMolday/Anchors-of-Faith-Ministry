@@ -1,17 +1,14 @@
 import Home from "../views/home";
 import Service from "../views/services";
 import ContactUs from '../views/contactUs';
-//import IndividualService from "../views/individualService";
 import AboutUs from '../views/aboutUs';
 import ProjectDetails from "../views/projectDetails";
-//import SMediaService from '../views/sMediaService';
-//import Blog from "../components/Blog/blog";
 import Links from "../components/Links/links";
 import AdminDashboard from "../components/Admin/AdminDashboard";
 
 const routes = [
   {
-    component: Home,  // Pass the component reference (not JSX)
+    component: Home,  
     to: '/'
   },
   {
