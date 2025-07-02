@@ -1,0 +1,149 @@
+/* Container and Header */
+.pricing-container {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+.pricing-container {
+  padding-bottom: 50px; /* Adjust as needed */
+}
+
+.pricing-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pricing-header p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Flex Layout for One Line Display */
+.pricing-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  margin-top: 40px;
+}
+
+.pricing-card-wrapper {
+  flex: 1 1 300px;
+  max-width: 360px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: #a6c8db;
+  cursor: pointer;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin: 10px 0;
+}
+
+/* Features */
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.feature-item {
+  font-size: 15px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.tick {
+  color: green;
+  margin-right: 10px;
+}
+
+/* Default Plan Styling */
+.default-plan .card {
+  border: 2px solid #00796b;
+  background-color: #e0f2f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.default-title {
+  color: #00796b;
+}
+
+.default-card {
+  background-color: #e0f2f1;
+}
+
+/* Button Styling */
+.pricing-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.default-plan-link {
+  background-color: #a6c8db;
+  color: white;
+  border: 2px solid #a6c8db;
+}
+
+.border-link {
+  background-color: transparent;
+  color: #00796b;
+  border: 2px solid #00796b;
+}
+
+.pricing-link:hover {
+  background-color: #004d40;
+  color: white;
+  border-color: #004d40;
+}
+
+/* Responsive Behavior */
+@media (max-width: 1024px) {
+  .pricing-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card-wrapper {
+    width: 90%;
+    max-width: 400px;
+  }
+}
